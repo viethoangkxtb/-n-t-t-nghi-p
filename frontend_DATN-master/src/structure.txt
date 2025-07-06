@@ -1,0 +1,124 @@
+Folder PATH listing for volume New Volume
+Volume serial number is D687-3807
+D:.
+¦   App.tsx
+¦   main.tsx
+¦   structure.txt
+¦   vite-env.d.ts
+¦   
++---assets
+¦       react.svg
+¦       
++---components
+¦   +---admin
+¦   ¦   ¦   layout.admin.tsx
+¦   ¦   ¦   
+¦   ¦   +---company
+¦   ¦   ¦       modal.company.tsx
+¦   ¦   ¦       
+¦   ¦   +---job
+¦   ¦   ¦       upsert.job.tsx
+¦   ¦   ¦       
+¦   ¦   +---permission
+¦   ¦   ¦       modal.permission.tsx
+¦   ¦   ¦       view.permission.tsx
+¦   ¦   ¦       
+¦   ¦   +---resume
+¦   ¦   ¦       view.resume.tsx
+¦   ¦   ¦       
+¦   ¦   +---role
+¦   ¦   ¦       modal.role.tsx
+¦   ¦   ¦       module.api.tsx
+¦   ¦   ¦       
+¦   ¦   +---subscriber
+¦   ¦   ¦       upsert.subscriber.tsx
+¦   ¦   ¦       
+¦   ¦   +---user
+¦   ¦           debouce.select.tsx
+¦   ¦           modal.user.tsx
+¦   ¦           view.user.tsx
+¦   ¦           
+¦   +---client
+¦   ¦   ¦   footer.client.tsx
+¦   ¦   ¦   header.client.tsx
+¦   ¦   ¦   search.client.tsx
+¦   ¦   ¦   
+¦   ¦   +---card
+¦   ¦   ¦       company.card.tsx
+¦   ¦   ¦       job.card.tsx
+¦   ¦   ¦       jobOfCompany.card.tsx
+¦   ¦   ¦       
+¦   ¦   +---data-table
+¦   ¦   ¦       index.tsx
+¦   ¦   ¦       
+¦   ¦   +---modal
+¦   ¦           apply.modal.tsx
+¦   ¦           manage.account.tsx
+¦   ¦           
+¦   +---share
+¦       ¦   access.tsx
+¦       ¦   layout.app.tsx
+¦       ¦   loading.tsx
+¦       ¦   not.found.tsx
+¦       ¦   
+¦       +---protected-route.ts
+¦               index.tsx
+¦               not-permitted.tsx
+¦               
++---config
+¦       api.ts
+¦       axios-customize.ts
+¦       permissions.ts
+¦       utils.ts
+¦       
++---pages
+¦   +---admin
+¦   ¦       company.tsx
+¦   ¦       dashboard.tsx
+¦   ¦       job.tsx
+¦   ¦       permission.tsx
+¦   ¦       resume.tsx
+¦   ¦       role.tsx
+¦   ¦       subscriber.tsx
+¦   ¦       user.tsx
+¦   ¦       
+¦   +---auth
+¦   ¦       login.tsx
+¦   ¦       register.tsx
+¦   ¦       
+¦   +---company
+¦   ¦       detail.tsx
+¦   ¦       index.tsx
+¦   ¦       
+¦   +---home
+¦   ¦       index.tsx
+¦   ¦       
+¦   +---job
+¦           detail.tsx
+¦           index.tsx
+¦           
++---redux
+¦   ¦   hooks.ts
+¦   ¦   store.ts
+¦   ¦   
+¦   +---slice
+¦           accountSlide.ts
+¦           companySlide.ts
+¦           jobSlide.ts
+¦           permissionSlide.ts
+¦           resumeSlide.ts
+¦           roleSlide.ts
+¦           subscriberSlide.ts
+¦           userSlide.ts
+¦           
++---styles
+¦       admin.module.scss
+¦       app.module.scss
+¦       auth.module.scss
+¦       client.module.scss
+¦       reset.scss
+¦       
++---types
+        backend.d.ts
+        file.d.ts
+        

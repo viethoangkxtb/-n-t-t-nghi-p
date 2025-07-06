@@ -1,0 +1,148 @@
+Folder PATH listing for volume New Volume
+Volume serial number is D687-3807
+D:.
+¦   app.controller.ts
+¦   app.module.ts
+¦   app.service.ts
+¦   main.ts
+¦   structure.txt
+¦   
++---auth
+¦   ¦   auth.controller.ts
+¦   ¦   auth.module.ts
+¦   ¦   auth.service.ts
+¦   ¦   jwt-auth.guard.ts
+¦   ¦   local-auth.guard.ts
+¦   ¦   
+¦   +---passport
+¦           jwt.strategy.ts
+¦           local.strategy.ts
+¦           
++---companies
+¦   ¦   companies.controller.ts
+¦   ¦   companies.module.ts
+¦   ¦   companies.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-company.dto.ts
+¦   ¦       update-company.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           company.schema.ts
+¦           
++---core
+¦       http-exception.filter.ts
+¦       transform.interceptor.ts
+¦       
++---databases
+¦       databases.controller.ts
+¦       databases.module.ts
+¦       databases.service.ts
+¦       sample.ts
+¦       
++---decorator
+¦       customize.ts
+¦       
++---files
+¦   ¦   files.controller.ts
+¦   ¦   files.module.ts
+¦   ¦   files.service.ts
+¦   ¦   multer.config.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-file.dto.ts
+¦   ¦       update-file.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           file.schema.ts
+¦           
++---health
+¦       health.controller.ts
+¦       health.module.ts
+¦       
++---jobs
+¦   ¦   jobs.controller.ts
+¦   ¦   jobs.module.ts
+¦   ¦   jobs.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-job.dto.ts
+¦   ¦       update-job.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           job.schema.ts
+¦           
++---mail
+¦   ¦   mail.controller.ts
+¦   ¦   mail.module.ts
+¦   ¦   mail.service.ts
+¦   ¦   
+¦   +---templates
+¦           approve-resume.hbs
+¦           job.hbs
+¦           new-job.hbs
+¦           reject-resume.hbs
+¦           test.hbs
+¦           test2.html
+¦           
++---permissions
+¦   ¦   permissions.controller.ts
+¦   ¦   permissions.module.ts
+¦   ¦   permissions.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-permission.dto.ts
+¦   ¦       update-permission.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           permission.schema.ts
+¦           
++---resumes
+¦   ¦   resumes.controller.ts
+¦   ¦   resumes.module.ts
+¦   ¦   resumes.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-resume.dto.ts
+¦   ¦       update-resume.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           resume.schema.ts
+¦           
++---roles
+¦   ¦   roles.controller.ts
+¦   ¦   roles.module.ts
+¦   ¦   roles.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-role.dto.ts
+¦   ¦       update-role.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           role.schema.ts
+¦           
++---subscribers
+¦   ¦   subscribers.controller.ts
+¦   ¦   subscribers.module.ts
+¦   ¦   subscribers.service.ts
+¦   ¦   
+¦   +---dto
+¦   ¦       create-subscriber.dto.ts
+¦   ¦       update-subscriber.dto.ts
+¦   ¦       
+¦   +---schemas
+¦           subscriber.schema.ts
+¦           
++---users
+    ¦   users.controller.ts
+    ¦   users.interface.ts
+    ¦   users.module.ts
+    ¦   users.service.ts
+    ¦   
+    +---dto
+    ¦       create-user.dto.ts
+    ¦       update-user.dto.ts
+    ¦       
+    +---schemas
+            user.schema.ts
+            
